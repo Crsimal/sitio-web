@@ -25,6 +25,11 @@ body {
 }
 #multimedia {
   text-align: center;
+  background-color: white;
+}
+#negrita {
+  font-weight: bold;
+  color: #0363F0;
 }
 /*=========================
   Icons
