@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>Ottis Beatbox</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -24,181 +22,286 @@
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Ottis Beatbox</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Multimedia</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Recursos Web <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Fuentes de Google</a></li>
-            <li><a href="http://paletton.com/#uid=a3F0R0kl1Wx1x+IcEXDsUWkWEVB">Paleta de colores</a></li>
-            <li><a href="https://github.com/Crsimal/">GitHub</a></li>
-            
-          </ul>
-        </li>
-      </ul>
-     
-      <ul class="nav navbar-nav navbar-right">
-        <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+        <div class="container-fluid" id="navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Ottis Beatbox</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                 	<li><a href="#sobremi">Sobre mí</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#multimedia">Multimedia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Recursos Web <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Fuentes de Google</a></li>
+                            <li><a href="http://paletton.com/#uid=a3F0R0kl1Wx1x+IcEXDsUWkWEVB">Paleta de colores</a></li>
+                            <li><a href="https://github.com/Crsimal/">GitHub</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="slider">
-  <!-- Overlay -->
-  <div class="overlay"></div>
-
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#slider" data-slide-to="0" class="active"></li>
-    <li data-target="#slider" data-slide-to="1"></li>
-    <li data-target="#slider" data-slide-to="2"></li>
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item slides active">
-      <div class="slide-1"></div>
-      <div class="hero">
-        <hgroup>
-            <h1>Ottis Beatbox</h1>        
-            <h3>cuando faltan las palabras la musica habla</h3>
-        </hgroup>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>CAMPEONATOS</h1>        
-            <h3>Top 8 en campeonato a nivel nacional dos años consecutivos</h3>
-        </hgroup>       
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-3"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>EXhIBICIONES</h1>        
-            <h3>MUESTRAS Y EXIBICIONES DE BEATBOX</h3>
-        </hgroup>
-      </div>
-    </div>
-  </div> 
-</div>
-
-
-
-
-<!-- ICONOS SOCIALES -->
-
-    			<div class="col-md-12" id="social">
-                    <ul class="social-network social-circle">
-                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/ottisbbx" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>				
-				</div>
-
-<div class="col-md-12" id="inicio">
-                  <h1>Ottis Beatbox</h1>
-                  <hr>
-                  Practicando beatbox desde 2005
-</div>
-
-<div class="col-md-12" id="eventos">
-                  <h1>Eventos</h1>
-                  <hr>
-                  Practicando beatbox desde 2005
-</div>
-
-
-<div class="col-md-12" id="multimedia">
-                  <h1>Multimedia</h1>
-                  <hr>
-                  Practicando beatbox desde 2005
-</div>
-
-
-
-<div class="col-md-12" id="contacto">
-
-<h1>Contacto</h1>
-<form class="form-horizontal" role="form" method="post" action="index.php">
-    <div class="form-group">
-        <label for="name" class="col-sm-2 control-label">Nombre</label>
-        <div class="col-sm-4">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Nombre y apellido" value="">
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="slider">
+        <!-- Overlay -->
+        <div class="overlay"></div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item slides active">
+                <div class="slide-1"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>Ottis Beatbox</h1>
+                        <h3>cuando faltan las palabras la musica habla</h3>
+                    </hgroup>
+                </div>
+            </div>
+            <div class="item slides">
+                <div class="slide-2"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>CAMPEONATOS</h1>
+                        <h3>Top 8 en campeonato a nivel nacional dos años consecutivos</h3>
+                    </hgroup>
+                </div>
+            </div>
+            <div class="item slides">
+                <div class="slide-3"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1>EXhIBICIONES</h1>
+                        <h3>MUESTRAS Y EXhIBICIONES DE BEATBOX</h3>
+                    </hgroup>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="form-group">
-        <label for="email" class="col-sm-2 control-label">Email</label>
-        <div class="col-sm-4">
-            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-        </div>
+    <!-- ICONOS SOCIALES -->
+    <div class="col-md-12" id="social">
+        <ul class="social-network social-circle">
+            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/ottisbbx" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
     </div>
-    <div class="form-group">
-        <label for="message" class="col-sm-2 control-label">Mensaje</label>
-        <div class="col-sm-8">
-            <textarea class="form-control" rows="4" name="message"></textarea>
-        </div>
+    <div class="col-md-12" id="sobremi">
+        <h1>Ottis Beatbox</h1>
+        <hr> Practicando beatbox desde 2005
     </div>
-    <div class="form-group">
-        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-        <div class="col-sm-8">
-            <input type="text" class="form-control" id="human" name="human" placeholder="Respuesta">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <input id="submit" name="submit" type="submit" value="enviar" class="btn btn-primary col-sm-9">
-        </div>
-    </div>
-   
-</form>
-</div>
+    <div class="col-md-12" id="eventos">
+        <h1>Eventos</h1>
+        <hr>
+        <dl class="dl-horizontal">
+        	<h3>Proximos Eventos</h3><br/>
+            <dt>Zombeats Summer Battle 2015</dt>
+            <dd>Campeonato de Beatbox a nivel nacional que de desarrolla en Benidorm.</dd><br/>
 
-<div class="containe-fluid" id="footer">
-    <div class="container-fluid">
-      <p class="navbar-text pull-left">© 2015 - Diseñado por Cristian Rico</p>
+            <dt>Artmozara 2015</dt>
+            <dd>Evento del mundo del hip hop celebrado en Zaragoza que reúne disciplinas como el break dance, el rap, el beatbox y el graffiti.</dd><br/>
+
+            <dt>Actúa Zaragoza 2015</dt>
+            <dd>Evento que reune artistas de todas las disciplinas en el centro de Zaragoza en el mes de Junio.</dd><br/>
+
+            <h3>Eventos Pasados</h3><br>
+            <dt>Zombeats Summer Battle 2014</dt>
+            <dd>Campeonato de Beatbox a nivel nacional que de desarrolla en Benidorm.</dd><br/>
+
+            <dt>Duelo en la cancha 2014</dt>
+            <dd>Exhibición de Beatbox en el campeonato de Break Dance Duelo en la Cancha.</dd><br/>
+
+            <dt>Muestra de Beatbox en Pilares 2015</dt>
+            <dd>Pequeña muestra de beatbox durante los pilares 2015 en la peña La Cogorza.</dd><br/>
+
+            <dt>Artmozara 2014</dt>
+            <dd>Evento del mundo del hip hop celebrado en Zaragoza que reúne disciplinas como el break dance, el rap, el beatbox y el graffiti.</dd>
+
+            <dt>Rock It 2013</dt>
+            <dd>Exhibicion de beatbox durante el desarrollo del Rock it, evento nacional de break dance.</dd><br/>
+
+            <dt>Casetas Urban Move 2013</dt>
+            <dd>Exhibicion de beatbox durante el Casetas Urban Move, festival dedicado al arte urbano en el barrio de Casetas.</dd><br/>
+
+            <dt>Zombeats Summer Battle 2013</dt>
+            <dd>Campeonato de Beatbox a nivel nacional que de desarrolla en Benidorm.</dd><br/>
+
+            <dt>Artmozara 2013</dt>
+            <dd>Evento del mundo del hip hop celebrado en Zaragoza que reúne disciplinas como el break dance, el rap, el beatbox y el graffiti.</dd><br/>
+
+            <dt>Artmozara 2012</dt>
+            <dd>Evento del mundo del hip hop celebrado en Zaragoza que reúne disciplinas como el break dance, el rap, el beatbox y el graffiti.</dd><br/>
+
+        </dl>
+    </div>
+    <div class="col-md-12" id="multimedia">
+        <h1>Multimedia</h1>
+        <hr>
+        <h3>VIDEOS</h3>
+
+       <div class="row">
       
-      <a href="https://www.youtube.com/user/ottisbbx" class="navbar-btn btn-danger btn pull-right">
-      <span class="glyphicon glyphicon-star"></span>Suscribete en YouTube</a>
+      <div class="col-sm-3 nopadding">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/Nvs5pqf-DMA" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-3 nopadding">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/k3jt5ibfRzw" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="col-sm-3 nopadding">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/A8yjNbcKkNY" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="col-sm-3 nopadding">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/JvKIWjnEPNY" allowfullscreen></iframe>
+        </div>
+      </div>
+      
     </div>
+    <h3>IMAGENES</h3><br/>
+<div class="container">
+	<div class="row">
+		<div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="http://placehold.it/320x320" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Image Title</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+        </div> <!-- list-group / end -->
+	</div> <!-- row / end -->
+</div> <!-- container / end -->
     
-    
-  </div>
+        </div>
+
+ 
 
 
+    </div>
+
+
+
+    <div class="col-md-12" id="contacto">
+        <h1>Contacto</h1>
+        <form class="form-horizontal" role="form" method="post" action="index.php">
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Nombre</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre y apellido" value="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Mensaje</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" rows="4" name="message"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="human" name="human" placeholder="Respuesta">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <input id="submit" name="submit" type="submit" value="enviar" class="btn btn-primary col-sm-9">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="containe-fluid" id="footer">
+        <div class="container-fluid">
+            <p class="navbar-text pull-left">© 2015 - Diseñado por Cristian Rico</p>
+            <a href="https://www.youtube.com/user/ottisbbx" class="navbar-btn btn-danger btn pull-right">
+                <span class="glyphicon "></span>Suscribete en YouTube</a>
+        </div>
+    </div>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
     <!-- build:js scripts/plugins.js -->
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>
@@ -213,12 +316,12 @@
     <script src="../bower_components/bootstrap/js/collapse.js"></script>
     <script src="../bower_components/bootstrap/js/tab.js"></script>
     <!-- endbuild -->
-
-
-
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
+	<script src="//frontend.reklamor.com/fancybox/jquery.fancybox.js"></script>
 </body>
 
 </html>

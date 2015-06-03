@@ -8,16 +8,23 @@ body {
   text-align: center;
   background-color: #FFAA19;
 }
-#inicio {
+#sobremi {
   text-align: center;
   color: black;
 }
-#inicio > h1 {
+#sobremi > h1 {
   color: #0363F0;
 }
 #contacto {
   text-align: center;
   background-color: #9DC1F6;
+}
+#eventos {
+  text-align: center;
+  background-color: #FFDA9A;
+}
+#multimedia {
+  text-align: center;
 }
 /*=========================
   Icons
@@ -208,6 +215,18 @@ Image credits: unsplash.com
   .hero h1 {
     font-size: 4em;
   }
+}
+/* VIDEOS */
+.nopadding {
+  padding: 2px !important;
+  margin: 0 !important;
+  outline: 2px solid #333;
+  background: #333;
+}
+/* GALERIA IMAGENES */
+.gallery {
+  display: inline-block;
+  margin-top: 20px;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
