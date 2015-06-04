@@ -29,17 +29,21 @@ body {
 }
 #contacto {
   text-align: center;
-  background-color: #9DC1F6;
+  background-color: #707070;
   padding-top: 20px;
-}
-#contacto > h1 {
-  color: black;
+  color: white;
+  font-weight: bolder;
 }
 #eventos {
   text-align: center;
   background-color: #FFAA19;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
+  background: url('../images/img8.jpg') no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
 }
 #eventosh {
   color: black;
@@ -52,7 +56,7 @@ body {
 }
 #multimedia {
   text-align: center;
-  background-color: white;
+  background-color: #9DC1F6;
 }
 .tituloseccion {
   color: black;
@@ -69,8 +73,7 @@ body {
 .titulogaleria {
   color: white;
   text-align: center;
-  background-color: #2B7CF2;
-  width: inherit;
+  background-color: #9DC1F6;
 }
 /*=========================
   Icons
