@@ -1,0 +1,4 @@
+Framework utilizado: Bootstrap, con ayuda de bootsnipp.com
+Diseño OnePage Web.
+Fuente de google utilizada: https://www.google.com/fonts/specimen/Oswald
+Paleta de colores: http://paletton.com/#uid=a3F0R0kl1Wx1x+IcEXDsUWkWEVB
