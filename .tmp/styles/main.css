@@ -2,6 +2,9 @@
 body {
   padding-top: 70px;
 }
+#sobremi > h4 {
+  color: #808080;
+}
 #slider {
   margin-top: -20px;
 }
@@ -15,9 +18,19 @@ body {
   padding-bottom: 60px;
   background-color: white;
 }
+#sobremih {
+  text-align: center;
+  color: black;
+  background-color: #FFDA9A;
+  padding-bottom: 15px;
+}
+#sobremih > h4 {
+  color: #808080;
+}
 #contacto {
   text-align: center;
   background-color: #9DC1F6;
+  padding-top: 20px;
 }
 #contacto > h1 {
   color: black;
@@ -25,20 +38,39 @@ body {
 #eventos {
   text-align: center;
   background-color: #FFAA19;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-#eventos > h1 {
+#eventosh {
   color: black;
+  text-align: center;
+  padding-bottom: 15px;
+  background-color: #FFDA9A;
+}
+#eventosh > h4 {
+  color: #808080;
 }
 #multimedia {
   text-align: center;
   background-color: white;
 }
-#multimedia > h1 {
+.tituloseccion {
   color: black;
+  text-align: center;
+  background-color: #FFDA9A;
+}
+.tituloseccion > h4 {
+  color: #808080;
 }
 #negrita {
   font-weight: bold;
   color: #0363F0;
+}
+.titulogaleria {
+  color: white;
+  text-align: center;
+  background-color: #2B7CF2;
+  width: inherit;
 }
 /*=========================
   Icons
