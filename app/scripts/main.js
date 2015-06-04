@@ -1,10 +1,9 @@
-/* jshint devel:true */
-console.log('\'Allo \'Allo!');
+"use strict";
 
 $(document).ready(function(){
     //FANCYBOX
     //https://github.com/fancyapps/fancyBox
-    $(".fancybox").fancybox({
+    $(".fancybox").fancybox({ 
         openEffect: "none",
         closeEffect: "none"
     });

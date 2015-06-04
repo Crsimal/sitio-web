@@ -19,16 +19,6 @@ img {
   color: black;
   padding-bottom: 60px;
   background-color: white;
-  margin-top: ;
-}
-#sobremih {
-  text-align: center;
-  color: black;
-  background-color: #FFDA9A;
-  padding-bottom: 5px;
-}
-#sobremih > h4 {
-  color: #808080;
 }
 #contacto {
   text-align: center;
@@ -49,25 +39,16 @@ img {
   background-size: cover;
   min-height: 500px;
 }
-#eventosh {
-  color: black;
-  text-align: center;
-  padding-bottom: 15px;
-  background-color: #FFDA9A;
-}
-#eventosh > h4 {
-  color: #808080;
-}
 #multimedia {
   text-align: center;
-  background-color: #9DC1F6;
+  background-color: #9dc1f6;
 }
 .tituloseccion {
   color: black;
   text-align: center;
-  background-color: #FFDA9A;
+  background-color: #ffda9a;
   padding-top: 4px;
-  padding-bottom: 8px;
+  padding-bottom: 2px;
 }
 .tituloseccion > h4 {
   color: #808080;
@@ -81,7 +62,7 @@ img {
 .titulogaleria {
   color: white;
   text-align: center;
-  background-color: #9DC1F6;
+  background-color: #9dc1f6;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -322,7 +303,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #fff;
-  background-color: #F1F1F1;
+  background-color: white;
   padding-top: 70px;
 }
 .bg_blur {
